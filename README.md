@@ -1,5 +1,5 @@
 # opamps
-Various opamps configs/schematics and the respective formulas.
+Various opamps configs/schematics and the respective formulae.
 
 
 

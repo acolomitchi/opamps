@@ -1,0 +1,6 @@
+e1:Vo-V-Ia*R2;
+e2:V-Va-Ia*R1;
+e3:Vo-V-Ib*R3;
+e4:V-Vb-Ib*R4;
+
+solve([e1,e2,e3,e4],[Vo,V,Ia,Ib]);
