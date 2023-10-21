@@ -1,0 +1,9 @@
+e1:Vo-V-I2*R2;
+e2:V-Vi-I2*R1;
+e3:Vo-Vload-I3*R3;
+e4:Vload-Iload*Rload;
+e5:Vload-V-I4*R4;
+e6:V-I4*R5;
+e7:I3-I4-Iload;
+
+solve([e1,e2,e3,e4,e5,e6,e7],[Iload, Vload, Vo, I2, I3, I4, V]);
